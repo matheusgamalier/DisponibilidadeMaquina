@@ -1,0 +1,55 @@
+/*! Autor: Matheus Gamalier
+    Data : 14/05/2017*/
+
+body{
+    background: #777;
+    font-family: arial;
+    font-size: 12px
+}
+form{
+    max-width: 185px;
+    min-height: 270px;
+    width: 100%;
+    margin: 15% auto;
+    padding: 10px 20px;
+    background: aquamarine;
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+form input{
+    border-radius: 10px;
+    padding: 2px 5%;
+	max-width: 185px;
+	width: 90%;
+	border: none;
+}
+
+form label{
+    display: block;
+    margin: 5px 0px;
+}     
+
+.botoes{
+    text-align: center;
+    margin-top: 40px
+}
+.botoes button {
+    border-radius: 10px;
+    min-width: 80px;
+    
+}
+.calcular{
+    background: lightgreen;
+    border-color: lightgreen;
+}
+.calcular:hover, .limpar:hover{
+    opacity: 0.8;
+}
+.limpar{
+    background: lightcoral;
+    border-color: lightcoral;
+}
+
+
+
+
